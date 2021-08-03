@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+body {
+    font-family: 'Muli', sans-serif;
+    height: 100%;
+    background-image: url("https://source.unsplash.com/Td7KC8TpaTc/1600x900");
+}
+
+
+.hero {
+    min-height: 100vh;
+    flex-direction: column; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.hero__profile-picture {
+    border-radius: 50%;
+    border: 5px solid white;
+    height: 250px;
+}
+
+.hero p {
+    flex-wrap: nowrap;
+    color: white;
+    font-size: 24px;
+}
+
